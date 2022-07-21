@@ -3,7 +3,7 @@
 As a business analyst at Maven Communication, I have been tasked to find out the high-value customers and the customers at risk of churning. 
 
 ---
-![image](https://github.com/olusolaolagunju/Customer-Churn-Analysis/blob/main/image/images.jpg)
+                            ![image](https://github.com/olusolaolagunju/Customer-Churn-Analysis/blob/main/image/images.jpg)
 
 [SQL Code](https://github.com/olusolaolagunju/Customer-Churn-Analysis/blob/main/Churnrate.sql)   [Churn Analysis]() 
 
