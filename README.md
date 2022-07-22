@@ -5,7 +5,7 @@ As a business analyst at Maven Communication, I have been tasked to find out the
 ---
 ![image](https://github.com/olusolaolagunju/Customer-Churn-Analysis/blob/main/image/images.jpg)
 
-[SQL Code](https://github.com/olusolaolagunju/Customer-Churn-Analysis/blob/main/Churnrate.sql)   [Churn Analysis]() 
+[SQL Code](https://github.com/olusolaolagunju/Customer-Churn-Analysis/blob/main/Churnrate.sql)   [Churn Analysis](https://github.com/olusolaolagunju/Customer-Churn-Analysis/blob/main/Customer%20Churn%20Analysis%20Solution.md) 
 
 ---
 
