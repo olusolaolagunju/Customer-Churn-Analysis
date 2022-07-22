@@ -186,6 +186,6 @@ ORDER BY ChurnRatePerCohortPerTenure desc
 ![image](https://github.com/olusolaolagunju/Customer-Churn-Analysis/blob/main/image/Tenure%20Cohort%20churn%20rate.png)
 
   
-Customers that stayed beyond the average tenure month (17 months) have a low churn rate (4-5%) but contributed the highest to the revenue churn rate (13-18%) 
+Customers that stayed beyond the average tenure month (18 months) have a low churn rate (4-5%) but contributed the highest to the revenue churn rate (13-18%) 
 
 ![image](https://github.com/olusolaolagunju/Customer-Churn-Analysis/blob/main/image/Revenue_Tenure%20(2).png)
