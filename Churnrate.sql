@@ -266,3 +266,34 @@ GROUP BY Contract
 SELECT Contract, COUNT(ChurnCategory)  
 FROM CustomerChurn..Churn$ WHERE ChurnCategory ='other'
 GROUP BY Contract
+
+
+----how many newly joined and the retained customers are at churn risk
+
+		----what is the average lifetime of a churned customer based on the tenure month
+		SELECT  Round(avg(TotalLongDistanceCharges),0)
+		FROM CustomerChurn..Churn$ 
+		WHERE CustomerStatus ='Churned'
+
+		----what is the average total charges of a churned customer 
+		SELECT  ROUND(avg(TotalCharges),0)
+		FROM CustomerChurn..Churn$ 
+		WHERE CustomerStatus ='Churned'
+
+		----what is the average total revenue of a churned customer 
+	SELECT ROUND(avg(TotalRevenue),0)
+	FROM CustomerChurn..Churn$ 
+	WHERE CustomerStatus ='Churned'
+
+	------churn risk
+
+WITH CTE_ChurnRisk as (
+SELECT COUNT(CustomerID) CustomeratChurnRisk,
+(SELECT COUNT(CustomerID)FROM CustomerChurn..Churn$ WHERE CustomerStatus IN ('Stayed', 'Joined')) TotalCustomer
+FROM CustomerChurn..Churn$ 
+WHERE CustomerStatus IN ('Stayed', 'Joined')
+AND TotalLongDistanceCharges <434
+	AND TotalCharges <1532
+	AND TotalRevenue <1971)
+SELECT ROUND ((CustomeratChurnRisk*1.0/TotalCustomer*100),0) as ChurnRisk
+FROM CTE_ChurnRisk
