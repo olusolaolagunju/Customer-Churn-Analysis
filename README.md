@@ -17,4 +17,4 @@ Consequently, customers at high churn risk are customers that have spent less th
 
 It is paramount to come up with A/B Testing including data, calls discounts, and offers, to  mitigate churning and drive ROI 
 
-Here is a step-by-step procedure on how I performed the regression and cohort analysis and other metrics. [VIEW SOLUTION]()
+Here is a step-by-step procedure on how I performed the regression and cohort analysis and other metrics. [VIEW SOLUTION](https://github.com/olusolaolagunju/Customer-Churn-Analysis/blob/main/Customer%20Churn%20Analysis%20Solution.md)
